@@ -3,47 +3,42 @@
     {
       "mode": "100644",
       "path": ".claude-plugin/marketplace.json",
-      "sha256": "1611112e175c6570f7e2a97490491d5a74d74ff57e4b011d4dad945ffe930bd3"
+      "sha256": "7323ed5555a739dba7eb4c585ac6415e2c06679a3c797197f3bfae566a7877b0"
     },
     {
       "mode": "100644",
       "path": "CHANGELOG.md",
-      "sha256": "40a13608da6da9d20007fb6fcc1728d824884e8bdb6db7dfa89acbeede30d182"
+      "sha256": "179d8c210a8866c76b9e6ed4ed48871a4ef6cba93d60ea1dfb498e51f4323e09"
     },
     {
       "mode": "100644",
       "path": "INSTALL.md",
-      "sha256": "213624a5bcf8b3333df3e84cae488d80d50a843fbda6ab21095c2b4c5e452158"
+      "sha256": "1eccb6cb4ae5aacfea1fbf5d49a770af12f5d67e87ddfa3cfd1f10cabaaef3a0"
     },
     {
       "mode": "100644",
       "path": "README.md",
-      "sha256": "347be456380652213ce1b5340ea0d24db85125d4cdbc68d32e2680fe915e579d"
+      "sha256": "beffa52f972ce9464fd1bb6a4471ba1055248cb93e8653eef33a2a50052e446f"
     },
     {
       "mode": "100644",
       "path": "plugins/cyborg-coach/.claude-plugin/plugin.json",
-      "sha256": "b0d71ad1ee9266e1d109db32c8bfef0ce0d5a5a51c4c16c7175481bc1a677ce8"
+      "sha256": "77fd7ca46230641e0e1fc074cb3d0ef1b8aba7050b762d86c2309fa692900df9"
     },
     {
       "mode": "100644",
       "path": "plugins/cyborg-coach/hooks/bootstrap.md",
-      "sha256": "2677731e7d013c0085da4fab40e785683e58fe1b1f2b9c97f5becf6062d1b1b8"
+      "sha256": "061860e323988ffd0c4860a03bc8db68ce6afbb9ca8befba6d66bc1d1bae30e5"
     },
     {
       "mode": "100644",
       "path": "plugins/cyborg-coach/hooks/hooks.json",
-      "sha256": "b33a0c50dd9f74c018853acb1b7bb124d73a4fdcd984c3219172158a863dd506"
-    },
-    {
-      "mode": "100644",
-      "path": "plugins/cyborg-coach/hooks/session-start.sh",
-      "sha256": "2e5fb9b8fe934a5400587201a878c9aa299671076427d863796f4a68900f01ec"
+      "sha256": "d500822eb5a7b0690a058486f0fe03df67f02731542097a48c86cdc8eb5dc6f0"
     },
     {
       "mode": "100644",
       "path": "plugins/cyborg-coach/references/faq.md",
-      "sha256": "240484de49a48a43c5a5b2c04d8097db90393b320d90be50a4f6b2b4506a148d"
+      "sha256": "3d7be67adf4742c8a1c46eaee2aa235c38fd32c1f844208bd00b9c100990e035"
     },
     {
       "mode": "100644",
@@ -53,7 +48,7 @@
     {
       "mode": "100644",
       "path": "plugins/cyborg-coach/references/install-and-update.md",
-      "sha256": "ba7e44c06b5913068f442d5a466c3b36da324c9380e3a02327ee737f9b9ab235"
+      "sha256": "01009664b89e4a2984fd4d0987e89f2389a0a43c02e64e845686316e7db4c646"
     },
     {
       "mode": "100644",
@@ -158,7 +153,7 @@
     {
       "mode": "100644",
       "path": "plugins/cyborg-coach/skills/create-skill/SKILL.md",
-      "sha256": "79751c350d61bb1fadd93d5a9a23c040a6a9246e79720728ce12c95ffe10189b"
+      "sha256": "dca87a4fc67a73cd1e55ae3f16d9afe865177d2e9bbd9af49d3f2fde1ec1497d"
     },
     {
       "mode": "100644",
@@ -182,6 +177,6 @@
     }
   ],
   "schema": 1,
-  "source_commit": "f12b57877d7d160bbae6fda3ceffcd1ad619fd60",
-  "version": "0.5.2"
+  "source_commit": "46322826c7435ca0f7206a3b1ad0dde48b016f56",
+  "version": "0.5.3"
 }

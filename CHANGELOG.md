@@ -1,5 +1,11 @@
 # Release notes
 
+## 0.5.3 — platform-neutral preview
+
+- Uses Preview branding and adds Windows folder, keyboard and explicit-Start guidance.
+- Replaces the Mac-only shell script with fixed startup context emitted by the host shell, with no extra runtime requirement. Namespaced skills resolve packaged references before coaching.
+- Keeps Windows end-to-end testing pending; local shell tests do not establish Windows support. Existing behavioral limitations remain.
+
 ## 0.5.2 — public marketplace
 
 - Public installation through https://github.com/nuDesk/cyborg-coach-plugin.git, with no GitHub account or invitation.
