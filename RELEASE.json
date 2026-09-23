@@ -1,0 +1,187 @@
+{
+  "files": [
+    {
+      "mode": "100644",
+      "path": ".claude-plugin/marketplace.json",
+      "sha256": "1611112e175c6570f7e2a97490491d5a74d74ff57e4b011d4dad945ffe930bd3"
+    },
+    {
+      "mode": "100644",
+      "path": "CHANGELOG.md",
+      "sha256": "40a13608da6da9d20007fb6fcc1728d824884e8bdb6db7dfa89acbeede30d182"
+    },
+    {
+      "mode": "100644",
+      "path": "INSTALL.md",
+      "sha256": "c9c15f78a19a5f76263625a6b406b1998bbecb6b5f618ba09ccd82c68826379f"
+    },
+    {
+      "mode": "100644",
+      "path": "README.md",
+      "sha256": "347be456380652213ce1b5340ea0d24db85125d4cdbc68d32e2680fe915e579d"
+    },
+    {
+      "mode": "100644",
+      "path": "plugins/cyborg-coach/.claude-plugin/plugin.json",
+      "sha256": "b0d71ad1ee9266e1d109db32c8bfef0ce0d5a5a51c4c16c7175481bc1a677ce8"
+    },
+    {
+      "mode": "100644",
+      "path": "plugins/cyborg-coach/hooks/bootstrap.md",
+      "sha256": "2677731e7d013c0085da4fab40e785683e58fe1b1f2b9c97f5becf6062d1b1b8"
+    },
+    {
+      "mode": "100644",
+      "path": "plugins/cyborg-coach/hooks/hooks.json",
+      "sha256": "b33a0c50dd9f74c018853acb1b7bb124d73a4fdcd984c3219172158a863dd506"
+    },
+    {
+      "mode": "100644",
+      "path": "plugins/cyborg-coach/hooks/session-start.sh",
+      "sha256": "2e5fb9b8fe934a5400587201a878c9aa299671076427d863796f4a68900f01ec"
+    },
+    {
+      "mode": "100644",
+      "path": "plugins/cyborg-coach/references/faq.md",
+      "sha256": "240484de49a48a43c5a5b2c04d8097db90393b320d90be50a4f6b2b4506a148d"
+    },
+    {
+      "mode": "100644",
+      "path": "plugins/cyborg-coach/references/glossary.md",
+      "sha256": "060775ff0069024bc15136fe2a6869eb015370e7241eeb94d688da795fd66755"
+    },
+    {
+      "mode": "100644",
+      "path": "plugins/cyborg-coach/references/install-and-update.md",
+      "sha256": "ba7e44c06b5913068f442d5a466c3b36da324c9380e3a02327ee737f9b9ab235"
+    },
+    {
+      "mode": "100644",
+      "path": "plugins/cyborg-coach/references/learning-path.md",
+      "sha256": "3ecd5414277a53fc32c11dac1b81ded8f2f4e127eb1df9cad38ff0398ae095fd"
+    },
+    {
+      "mode": "100644",
+      "path": "plugins/cyborg-coach/references/modules/01-lane-and-outcome.md",
+      "sha256": "3d017640ddc8011e4ad59d38f5ee4bf530ae2b60953a207bf2cfa6e84d7e6396"
+    },
+    {
+      "mode": "100644",
+      "path": "plugins/cyborg-coach/references/modules/02-working-in-claude-code.md",
+      "sha256": "c761db1b688e65835c0fbcb9822b22522487ce1b830040eb2b01f77e41111f27"
+    },
+    {
+      "mode": "100644",
+      "path": "plugins/cyborg-coach/references/modules/03-organization-os.md",
+      "sha256": "849fa9d739aa62b0d6a00c2c38b8b2ce31358bc1f69d3d6378c5cf5617613b86"
+    },
+    {
+      "mode": "100644",
+      "path": "plugins/cyborg-coach/references/modules/04-project-and-setup-check.md",
+      "sha256": "9418ca940b61b3f328655cc6aa307ae44747745f74f980ddfd31b5a69aac53bf"
+    },
+    {
+      "mode": "100644",
+      "path": "plugins/cyborg-coach/references/modules/05-control-and-troubleshooting.md",
+      "sha256": "8de776ac989f2a728e5526f796cf2fbd1bedc3a4002b3c664c7d53bd8485cc23"
+    },
+    {
+      "mode": "100644",
+      "path": "plugins/cyborg-coach/references/modules/06-closeout-and-reuse.md",
+      "sha256": "18953808ccb262a68ac80a8d24c3d4a9f9470b57b4477a51387f5e5cd659db34"
+    },
+    {
+      "mode": "100644",
+      "path": "plugins/cyborg-coach/references/operating-rules.md",
+      "sha256": "0c74f58503c2a1546d44b343e5fa7b5a7659eb5a6e4fc5386929f9cd641de1a5"
+    },
+    {
+      "mode": "100644",
+      "path": "plugins/cyborg-coach/references/os-framework.md",
+      "sha256": "39c34990eb6e465386bc228eccf0345931291af07460f164be40823936feb167"
+    },
+    {
+      "mode": "100644",
+      "path": "plugins/cyborg-coach/references/os-templates.md",
+      "sha256": "5725bf4259b6ea6e01439d6b7deae6a057ef6ee9e965abc76b7dc18be16907d7"
+    },
+    {
+      "mode": "100644",
+      "path": "plugins/cyborg-coach/references/project-playbook.md",
+      "sha256": "b2c9be30757aa49ec3f5e264c4d52c3f4af21f72f5bfb285cf2fa807cf015349"
+    },
+    {
+      "mode": "100644",
+      "path": "plugins/cyborg-coach/references/setup-and-recovery.md",
+      "sha256": "a440ffdd5b7413767e54c8ad055946dc07de0774f9006f65b3f49f64c3f78bf0"
+    },
+    {
+      "mode": "100644",
+      "path": "plugins/cyborg-coach/references/setup-standard.md",
+      "sha256": "298dc2ea1f68bcedd7432c2fe820b348ce9770f06618db2e71d3fb13b9fbb4dd"
+    },
+    {
+      "mode": "100644",
+      "path": "plugins/cyborg-coach/references/skill-and-plugin-creation.md",
+      "sha256": "a4077d601f3c6ede8c2fb77aca5bc2a645c8014db2464d8957de93784a84818a"
+    },
+    {
+      "mode": "100644",
+      "path": "plugins/cyborg-coach/references/templates.md",
+      "sha256": "f3b3861c7712243c480e5684b040d5c7fe5aefe8001c39ea92bae2d4ba5e77f2"
+    },
+    {
+      "mode": "100644",
+      "path": "plugins/cyborg-coach/skills/audit-os/SKILL.md",
+      "sha256": "904fa09c3d11b6b89c9b2db3f43128bf765f393aae0e790fe364375d5919c722"
+    },
+    {
+      "mode": "100644",
+      "path": "plugins/cyborg-coach/skills/brainstorm/SKILL.md",
+      "sha256": "7699915e52c5d894eda8e9e0bdc01e7660a9a47b2130d396f7498f996255e4ae"
+    },
+    {
+      "mode": "100644",
+      "path": "plugins/cyborg-coach/skills/check-for-updates/SKILL.md",
+      "sha256": "4c150d27b0763cba2059b08534f17d6e52805e8804a68e66f1d4f67e68ee94d8"
+    },
+    {
+      "mode": "100644",
+      "path": "plugins/cyborg-coach/skills/check-setup/SKILL.md",
+      "sha256": "c2bab7b8cb91695f21aee0534ca7ba29f12ecc6c3b44a413f9aa861c8829811e"
+    },
+    {
+      "mode": "100644",
+      "path": "plugins/cyborg-coach/skills/create-plugin/SKILL.md",
+      "sha256": "466ac84198321979766c750cce0f9234289a35768dfdd6ff85b255b836e246a4"
+    },
+    {
+      "mode": "100644",
+      "path": "plugins/cyborg-coach/skills/create-skill/SKILL.md",
+      "sha256": "79751c350d61bb1fadd93d5a9a23c040a6a9246e79720728ce12c95ffe10189b"
+    },
+    {
+      "mode": "100644",
+      "path": "plugins/cyborg-coach/skills/session-closeout/SKILL.md",
+      "sha256": "cf9d9227ecf170bc1744fd3bf2dac021ed976cbcbc8bcc226f72c779ff40f6b4"
+    },
+    {
+      "mode": "100644",
+      "path": "plugins/cyborg-coach/skills/setup-os/SKILL.md",
+      "sha256": "bdd8be6816703258bb2591128973dffd1f3cb736b94e0a016eb6a3f8a86c83ca"
+    },
+    {
+      "mode": "100644",
+      "path": "plugins/cyborg-coach/skills/setup-project/SKILL.md",
+      "sha256": "a32fa85e3465ded102e7f0d51e03b26f11110c672664d5118706212371151299"
+    },
+    {
+      "mode": "100644",
+      "path": "plugins/cyborg-coach/skills/start/SKILL.md",
+      "sha256": "07a6774201a5289964ec466497a6cfac3e9adb8e3331769798a95ea1848eb18c"
+    }
+  ],
+  "schema": 1,
+  "source_commit": "2d4b3b115c93c54baeba8d3b19924064f1953ee5",
+  "version": "0.5.2"
+}

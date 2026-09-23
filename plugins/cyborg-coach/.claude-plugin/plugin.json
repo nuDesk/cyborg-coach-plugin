@@ -1,0 +1,16 @@
+{
+  "name": "cyborg-coach",
+  "displayName": "Cyborg Coach",
+  "version": "0.5.2",
+  "description": "Learn by doing in Claude Code Desktop: get started, ask for help, create a project-based agent, or build and maintain your organizational OS.",
+  "author": {
+    "name": "nuDesk LLC"
+  },
+  "homepage": "https://github.com/nuDesk/cyborg-coach-plugin",
+  "keywords": [
+    "coaching",
+    "onboarding",
+    "documentation",
+    "setup-check"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "nudesk-cyborg-coach",
+  "owner": {
+    "name": "nuDesk LLC"
+  },
+  "metadata": {
+    "description": "Public marketplace for Cyborg Coach.",
+    "version": "0.5.2"
+  },
+  "plugins": [
+    {
+      "name": "cyborg-coach",
+      "source": "./plugins/cyborg-coach",
+      "description": "Learn by doing in Claude Code Desktop: get started, ask for help, create a project-based agent, or build and maintain your organizational OS.",
+      "version": "0.5.2",
+      "author": {
+        "name": "nuDesk LLC"
+      },
+      "category": "productivity",
+      "keywords": [
+        "coaching",
+        "onboarding",
+        "documentation",
+        "setup-check",
+        "skills",
+        "plugins"
+      ]
+    }
+  ]
+}
