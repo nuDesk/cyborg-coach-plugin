@@ -13,7 +13,7 @@
     {
       "mode": "100644",
       "path": "INSTALL.md",
-      "sha256": "c9c15f78a19a5f76263625a6b406b1998bbecb6b5f618ba09ccd82c68826379f"
+      "sha256": "213624a5bcf8b3333df3e84cae488d80d50a843fbda6ab21095c2b4c5e452158"
     },
     {
       "mode": "100644",
@@ -182,6 +182,6 @@
     }
   ],
   "schema": 1,
-  "source_commit": "2d4b3b115c93c54baeba8d3b19924064f1953ee5",
+  "source_commit": "f12b57877d7d160bbae6fda3ceffcd1ad619fd60",
   "version": "0.5.2"
 }

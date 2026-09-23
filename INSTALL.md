@@ -34,7 +34,7 @@ Check the exact public URL and network connection; allow Sync to complete. If th
 
 Use native plugin management to refresh the marketplace, update the plugin and open a fresh session. Automatic updates may be off for third-party marketplaces. `check-for-updates` is read-only: it never installs, refreshes or updates anything. It distinguishes the loaded version, installed version and public release; unavailable metadata means unknown.
 
-Existing private-install users: add the new public URL for the same `nudesk-cyborg-coach` marketplace and confirm replacement if Claude asks. Refresh and update it, then check in a fresh session. Do not delete your work or hand-edit caches.
+Existing private-install users: add the public URL for `nudesk-cyborg-coach`. If Claude refuses because that name points at the old private source, remove only that marketplace through native plugin management, add the public URL, and reinstall Cyborg Coach. Removing a marketplace can uninstall its plugins; it does not remove your OS or project files. Start a fresh session afterward. Do not delete folders or hand-edit caches.
 
 Disable or uninstall through native plugin management. This removes the ten skills and their bootstrap when the change takes effect; everything you created stays yours. Uninstalling does not erase your OS or project files. Updates replace package files only. Never store participant work in the plugin cache.
 
