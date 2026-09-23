@@ -1,7 +1,7 @@
 {
   "name": "cyborg-coach",
   "displayName": "Cyborg Coach",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "description": "Learn by doing in Claude Code Desktop: get started, ask for help, create a project-based agent, or build and maintain your organizational OS.",
   "author": {
     "name": "nuDesk LLC"

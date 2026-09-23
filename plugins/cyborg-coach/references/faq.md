@@ -62,7 +62,7 @@ Yes. Ask to brainstorm. The coach uses what it already knows and asks one useful
 
 ## Does Start keep listening?
 
-Start activates coaching in this conversation and shows the four lanes when no specific request accompanies it. The packaged startup hook adds fixed coaching guidance on supported session events; it does not observe other sessions or read participant files. Coaching should stay quiet for unrelated work. Automatic activation is being tested for macOS Desktop; invoke Start when it has not been confirmed for your release and surface.
+Start activates coaching in this conversation and shows the four lanes when no specific request accompanies it. The packaged startup hook adds fixed coaching guidance on supported session events; it does not observe other sessions or read participant files. Coaching should stay quiet for unrelated work. Automatic activation must be checked for the actual release and surface; Windows end-to-end testing is pending. Invoke Start when activation has not been confirmed.
 
 ## Can I stop coaching?
 

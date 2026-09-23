@@ -2,7 +2,7 @@
 
 Use this reference when the participant asks how the plugin got here, how to update it, or how to remove it. Keep it consistent with the distribution's `INSTALL.md`, and never invent interface labels.
 
-Owner: check-for-updates and Start. Purpose: supported distribution, activation, privacy, and removal guidance. Product sources checked: 2026-09-23. This source describes the public 0.5.2 distribution; its presence is not proof of publication, installation, or Desktop hook activation. Read live metadata when status matters.
+Owner: check-for-updates and Start. Purpose: supported distribution, activation, privacy, and removal guidance. Product sources checked: 2026-09-23. This source describes the public 0.5.3 distribution; its presence is not proof of publication, installation, or Desktop hook activation. Read live metadata when status matters.
 
 ## What is true in this session
 
@@ -33,11 +33,17 @@ Owner: check-for-updates and Start. Purpose: supported distribution, activation,
 
 The publisher receives no chats, files, or person-level usage data from this plugin. Feedback is voluntary and explicit; never post anything automatically. Repository issues are public, so keep sensitive material out of them. Native git installs do not increment release-asset download counters, and a download count would show interest rather than successful setup.
 
-The plugin includes one packaged SessionStart command hook for startup, resume, clear, and compact events, initially targeting macOS Desktop. It reads only a fixed packaged coaching text and adds that text plus the resolved package path to Claude's model context. It ignores event-input contents; it does not read participant files, inspect transcripts, write memory, change folders, call the network, or run a background coach. The host may supply metadata to hooks, but this script does not use or retain it. Claude itself can still use files and tools permitted in the session. Model context is processed under Anthropic's applicable account terms and controls; local hook execution is not a claim that all context stays on the computer.
+The plugin includes one packaged SessionStart command hook for startup, resume, clear, and compact events. The host shell emits fixed coaching context embedded in the configuration; no separate script runtime or platform probe is required. It ignores event input and does not read files, inspect transcripts, write memory, change folders, call the network, or run a background coach. Before coaching, a namespaced skill must resolve and read relevant packaged guidance. Claude itself can still use files and tools permitted in the session. Model context is processed under Anthropic's applicable account terms and controls; local hook execution is not a claim that all context stays on the computer.
 
 Automatic loading is not an automatic greeting or project selection. Coaching applies to an explicit coach request, help learning/using Claude Code, or an existing coaching workflow in this conversation; unrelated work should remain unaffected. “Stop coaching” suppresses optional suggestions in this conversation, not the hook itself. Native plugin disablement is the supported broader control. No hook-only settings interface or persistent on/off tracker is added.
 
-Manual `/cyborg-coach:start` remains the fallback. Runtime evidence must establish automatic activation; valid configuration or plausible coaching text is not enough. Windows/Linux automatic activation is not claimed, and a platform without the required launcher is not a supported automatic-bootstrap distribution target. For unsupported platforms or absent packaged content detected after the launcher starts, it exits quietly without adding context. Do not weaken controls or install another runtime to make it work. Official mechanism reference: https://code.claude.com/docs/en/hooks.
+Manual `/cyborg-coach:start` remains the explicit entrypoint. Runtime evidence must establish automatic activation; valid configuration or plausible coaching text is not enough. Windows end-to-end testing is pending, including host-shell execution and skill loading. Do not weaken controls or install another runtime merely to make this reminder work. Official mechanism reference: https://code.claude.com/docs/en/hooks.
+
+## Windows PCs
+
+Claude Code Desktop is available on Windows. Use the same public marketplace URL and explicitly choose `/cyborg-coach:start` after installing. Create or select the practice folder with File Explorer or the system folder picker; use Ctrl+C / Ctrl+V instead of Command+C / Command+V. Interface labels can vary by app version. See [official Desktop guidance](https://code.claude.com/docs/en/desktop).
+
+Our end-to-end checks were performed on macOS; Windows testing is pending. Do not assume automatic startup has run because a reply sounds coached. Start explicitly and check the displayed package version. Shared OS skill links also need platform-specific checks; do not change Windows security settings merely to follow a Mac symlink example.
 
 ## Read-only version check
 
@@ -51,7 +57,7 @@ If access is unavailable, report “I couldn't check the latest release,” not 
 
 ## Candidate and renamed skills
 
-Version 0.5.2 has exactly ten skills: `start`, `setup-project`, `check-setup`, `session-closeout`, `brainstorm`, `create-skill`, `create-plugin`, `check-for-updates`, `setup-os`, and `audit-os`. setup-os owns organizational creation and approved improvements; audit-os owns read-only assessment. Version 0.4.0 was the preceding private preview release. Read live metadata instead of treating either sentence as proof of the current published or loaded version.
+Version 0.5.3 has exactly ten skills: `start`, `setup-project`, `check-setup`, `session-closeout`, `brainstorm`, `create-skill`, `create-plugin`, `check-for-updates`, `setup-os`, and `audit-os`. setup-os owns organizational creation and approved improvements; audit-os owns read-only assessment. Version 0.4.0 was the preceding private preview release. Read live metadata instead of treating either sentence as proof of the current published or loaded version.
 
 | Previous name | Current name |
 | --- | --- |
